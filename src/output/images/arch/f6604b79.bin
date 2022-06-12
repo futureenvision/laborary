@@ -1,0 +1,53 @@
+%NAME%
+linux
+
+%VERSION%
+5.18.arch1-1.0
+
+%BASE%
+linux
+
+%DESC%
+The Linux kernel and modules
+
+%URL%
+https://github.com/archlinux/linux/commits/v5.18-arch1
+
+%ARCH%
+pentium4
+
+%BUILDDATE%
+1653834122
+
+%INSTALLDATE%
+1654862840
+
+%PACKAGER%
+Andreas Baumann <mail@andreasbaumann.cc>
+
+%SIZE%
+161387334
+
+%LICENSE%
+GPL2
+
+%VALIDATION%
+sha256
+
+%REPLACES%
+virtualbox-guest-modules-arch
+wireguard-arch
+
+%DEPENDS%
+coreutils
+kmod
+initramfs
+
+%OPTDEPENDS%
+wireless-regdb: to set the correct wireless channels of your country
+linux-firmware: firmware images needed for some devices
+
+%PROVIDES%
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+

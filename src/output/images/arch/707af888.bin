@@ -1,0 +1,60 @@
+%NAME%
+gnupg
+
+%VERSION%
+2.2.32-2.2
+
+%BASE%
+gnupg
+
+%DESC%
+Complete and free implementation of the OpenPGP standard
+
+%URL%
+https://www.gnupg.org/
+
+%ARCH%
+pentium4
+
+%BUILDDATE%
+1642082263
+
+%INSTALLDATE%
+1654862787
+
+%PACKAGER%
+Erich Eckner <arch32 at eckner dot net>
+
+%SIZE%
+11132080
+
+%REASON%
+1
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+sha256
+
+%DEPENDS%
+npth
+libgpg-error
+libgcrypt
+libksba
+libassuan
+pinentry
+bzip2
+libbz2.so=1.0-32
+readline
+libreadline.so=8-32
+gnutls
+sqlite
+zlib
+glibc
+
+%OPTDEPENDS%
+libldap: gpg2keys_ldap
+libusb-compat: scdaemon
+pcsclite: scdaemon
+

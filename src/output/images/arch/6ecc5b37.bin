@@ -1,0 +1,52 @@
+%NAME%
+openssh
+
+%VERSION%
+8.7p1-2.0
+
+%BASE%
+openssh
+
+%DESC%
+Premier connectivity tool for remote login with the SSH protocol
+
+%URL%
+https://www.openssh.com/portable.html
+
+%ARCH%
+pentium4
+
+%BUILDDATE%
+1631944520
+
+%INSTALLDATE%
+1654862843
+
+%PACKAGER%
+Andreas Baumann <mail@andreasbaumann.cc>
+
+%SIZE%
+6797326
+
+%LICENSE%
+custom:BSD
+
+%VALIDATION%
+sha256
+
+%DEPENDS%
+glibc
+krb5
+openssl
+libedit
+ldns
+libxcrypt
+libcrypt.so=2-32
+zlib
+pam
+
+%OPTDEPENDS%
+xorg-xauth: X11 forwarding
+x11-ssh-askpass: input passphrase in X
+libfido2: FIDO/U2F support
+

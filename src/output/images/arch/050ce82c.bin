@@ -1,0 +1,99 @@
+%NAME%
+systemd
+
+%VERSION%
+250.2-2.1
+
+%BASE%
+systemd
+
+%DESC%
+system and service manager
+
+%URL%
+https://www.github.com/systemd/systemd
+
+%ARCH%
+pentium4
+
+%BUILDDATE%
+1642062885
+
+%INSTALLDATE%
+1654862800
+
+%PACKAGER%
+Andreas Baumann <mail@andreasbaumann.cc>
+
+%SIZE%
+28559472
+
+%REASON%
+1
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%VALIDATION%
+sha256
+
+%REPLACES%
+nss-myhostname
+systemd-tools
+udev
+
+%DEPENDS%
+acl
+libacl.so=1-32
+bash
+cryptsetup
+libcryptsetup.so=12-32
+dbus
+iptables
+kbd
+kmod
+libkmod.so=2-32
+hwdata
+libcap
+libcap.so=2-32
+libgcrypt
+libxcrypt
+libcrypt.so=2-32
+systemd-libs
+libidn2
+lz4
+pam
+libelf
+libseccomp
+libseccomp.so=2-32
+util-linux
+libblkid.so=1-32
+libmount.so=1-32
+xz
+pcre2
+audit
+libaudit.so=1-32
+libp11-kit
+libp11-kit.so=0-32
+openssl
+
+%OPTDEPENDS%
+libmicrohttpd: remote journald capabilities
+quota-tools: kernel-level quota management
+systemd-sysvcompat: symlink package to provide sysvinit binaries
+polkit: allow administration as unprivileged user
+curl: machinectl pull-tar and pull-raw
+libfido2: unlocking LUKS2 volumes with FIDO2 token
+tpm2-tss: unlocking LUKS2 volumes with TPM2
+
+%CONFLICTS%
+nss-myhostname
+systemd-tools
+udev
+
+%PROVIDES%
+nss-myhostname
+systemd-tools=250.2
+udev=250.2
+

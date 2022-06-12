@@ -1,0 +1,49 @@
+%NAME%
+glibc
+
+%VERSION%
+2.35-3.0
+
+%BASE%
+glibc
+
+%DESC%
+GNU C Library
+
+%URL%
+https://www.gnu.org/software/libc
+
+%ARCH%
+pentium4
+
+%BUILDDATE%
+1647943941
+
+%INSTALLDATE%
+1654862720
+
+%PACKAGER%
+Andreas Baumann <mail@andreasbaumann.cc>
+
+%SIZE%
+44410762
+
+%REASON%
+1
+
+%LICENSE%
+GPL
+LGPL
+
+%VALIDATION%
+sha256
+
+%DEPENDS%
+linux-api-headers>=4.10
+tzdata
+filesystem
+
+%OPTDEPENDS%
+gd: for memusagestat
+perl: for mtrace
+

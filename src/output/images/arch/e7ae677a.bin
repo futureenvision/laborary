@@ -1,0 +1,46 @@
+%NAME%
+ldns
+
+%VERSION%
+1.8.1-1.0
+
+%BASE%
+ldns
+
+%DESC%
+Fast DNS library supporting recent RFCs
+
+%URL%
+https://www.nlnetlabs.nl/projects/ldns/
+
+%ARCH%
+pentium4
+
+%BUILDDATE%
+1640584022
+
+%INSTALLDATE%
+1654862842
+
+%PACKAGER%
+Erich Eckner <arch32 at eckner dot net>
+
+%SIZE%
+1963236
+
+%REASON%
+1
+
+%LICENSE%
+custom:BSD
+
+%VALIDATION%
+sha256
+
+%DEPENDS%
+openssl
+dnssec-anchors
+
+%OPTDEPENDS%
+libpcap: ldns-dpa tool
+
